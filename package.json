@@ -1,7 +1,7 @@
 {
-  "name": "loot_cave",
+  "name": "next_meal_oc",
   "version": "1.0.0",
-  "description": "A dungeon-crawl card game",
+  "description": "A quick lookup tool for the hungry and homeless",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
@@ -12,10 +12,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unleashalicia/react_starter.git"
+    "url": "https://github.com/unleashalicia/next_meal_oc.git"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "materialize-css": "^0.100.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",

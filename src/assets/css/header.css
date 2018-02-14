@@ -1,0 +1,28 @@
+#header {
+    color: #fff;
+    background-color: #13c4a3;
+    margin: 0;
+    padding: 3%;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#header .logo {
+    height: 100px;
+    filter: invert(100%);
+}
+
+.rotate {
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
